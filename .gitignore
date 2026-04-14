@@ -1,0 +1,17 @@
+#Ignore system files
+.DS_Store
+Thumbs.db
+#Ignore local VS Code settings
+.vscode/
+#Ignore logs and temp files
+*.log
+temp/
+#Ignore node modules
+node_modules/
+#Ignore build artifacts
+dist/
+build/
+#Ignore environment variable files
+.env
+#Ignore IDE specific files  .idea/
+.idea/        

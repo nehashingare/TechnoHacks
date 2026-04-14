@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAGIQUE | Elegant Bags</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header style="background: transparent" class="navbar">
+      <div class="logo">BAGIQUE</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label
+        for="nav-toggle"
+        class="nav-toggle-label"
+        aria-label="Toggle navigation"
+      >
+        <span></span>
+      </label>
+      <nav class="nav-menu">
+        <a href="#home">HOME</a>
+        <a href="#collection">COLLECTION</a>
+        <a href="#our-story">OUR STORY</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <main id="home" class="hero-section">
+      <h1 class="bg-text">BAGIQUE</h1>
+      <div class="hero-container">
+        <div class="main-product">
+          <img
+            src="Firefly_a  classy spring collection bag ,modeled for web design 453515.png"
+            alt="Featured Bag"
+          />
+        </div>
+
+        <div class="product-info">
+          <p class="tagline">SPRING COLLECTION '26</p>
+          <h2>Verve Satchel</h2>
+          <p class="description">
+            Hand-stitched Italian leather designed for the modern silhouette.
+            Drawstring closure, adjustable strap, and a spacious interior make
+            it the perfect blend of style and functionality.
+          </p>
+          <div class="color-picker">
+            <span class="dot black"></span>
+            <span class="dot tan"></span>
+          </div>
+          <a href="#collection" class="btn-explore">EXPLORE MORE</a>
+        </div>
+      </div>
+    </main>
+
+    <section id="collection" class="section products-section">
+      <div class="section-header">
+        <p class="section-label">COLLECTION</p>
+        <h2>Best Sellers</h2>
+      </div>
+      <div class="products-grid">
+        <article class="product-card">
+          <img
+            src="Firefly_a  classy spring collection bag ,modeled for web design 453515.png"
+            alt="Verve Satchel"
+          />
+          <div class="product-card-content">
+            <p class="product-category">New Arrival</p>
+            <h3>Verve Satchel</h3>
+            <p>
+              Soft Italian leather with internal pockets and an adjustable
+              strap.
+            </p>
+            <div class="product-card-footer">
+              <span class="price">$248</span>
+              <button class="btn-card">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="signature.jpg" alt="Metro Tote" />
+          <div class="product-card-content">
+            <p class="product-category">Signature</p>
+            <h3>Metro Bag</h3>
+            <p>
+              Everyday carry with a polished finish and roomy interior
+              compartments.
+            </p>
+            <div class="product-card-footer">
+              <span class="price">$198</span>
+              <button class="btn-card">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="evening.jpg" alt="Luna Clutch" />
+          <div class="product-card-content">
+            <p class="product-category">Evening</p>
+            <h3>Luna Clutch</h3>
+            <p>
+              Compact elegance with a sculptural shape and metallic hardware
+              details.
+            </p>
+            <div class="product-card-footer">
+              <span class="price">$142</span>
+              <button class="btn-card">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="limited.jpg" alt="Flora Mini" />
+          <div class="product-card-content">
+            <p class="product-category">Limited</p>
+            <h3>Flora Mini</h3>
+            <p>
+              A petite everyday piece with statement curves and textured
+              leather.
+            </p>
+            <div class="product-card-footer">
+              <span class="price">$168</span>
+              <button class="btn-card">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="our-story" class="section story-section">
+      <div class="story-grid">
+        <div class="story-text">
+          <div class="section-header">
+            <p class="section-label">OUR STORY</p>
+            <h2>Crafted for her with love,</h2>
+          </div>
+          <p class="section-copy">
+            Your bag is more than an accessory—it’s the silent partner to your
+            daily ambitions. At BAGIQUE, we design for the woman in motion,
+            creating pieces that blend intuitive organization with effortless
+            style. From the morning commute to a last-minute getaway, our bags
+            are crafted to carry your world and evolve with your journey. You
+            aren’t just carrying a purse; you’re carrying your life, and we’re
+            honored to be by your side for every mile.
+          </p>
+        </div>
+        <div class="story-image-wrap">
+          <img
+            src="ourstory_nobg.png"
+            alt="BAGIQUE story image"
+            class="story-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <p class="section-label">CONTACT</p>
+        <h2>Get in Touch</h2>
+        <p class="section-copy">
+          Ready to explore the full collection? Reach out or visit us for the
+          latest arrivals and custom styling advice.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+          </div>
+          <div class="form-row">
+            <label for="contact-info">Email or Phone</label>
+            <input
+              type="text"
+              id="contact-info"
+              name="contact-info"
+              placeholder="Email or phone number"
+            />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="2"
+              placeholder="Write your message here"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo">BAGIQUE</div>
+          <p>Luxury bags designed to move with your day.</p>
+          <div class="contact-info-list">
+            <div class="contact-info">
+              <p>Sandust road, lake view circle, Mumbai</p>
+            </div>
+            <div class="contact-info">
+              <p>info@coffeeshopwebsite.com</p>
+            </div>
+            <div class="contact-info">
+              <p>+91 9643290501</p>
+            </div>
+            <div class="contact-info">
+              <p>Monday - Sunday: 9:00 AM - 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <nav class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#collection">Collection</a>
+          <a href="#our-story">Our Story</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">© 2026 BAGIQUE. Crafted for every journey.</p>
+      </div>
+    </footer>
+  </body>
+</html>
